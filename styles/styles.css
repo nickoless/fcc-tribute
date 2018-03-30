@@ -1,5 +1,5 @@
 .container {
-  flex-direction: row;
+ flex-direction: row;
  font-family: 'Work Sans', sans-serif;
 }
 
@@ -16,7 +16,8 @@
 
 
 #album {
- margin-top: 10px
+ height: 300px;
+ width: 300px;
 }
 
 #one {
