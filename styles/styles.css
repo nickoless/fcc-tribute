@@ -3,25 +3,37 @@
   font-family: 'Work Sans', sans-serif;
 }
 
-
-.container img {
-  width: 100%;
-  margin-left: 0;
-  margin-bottom: 10px;
-}
-
 .panel {
   background-color: #EE964B;
   color: white;
-  font-size: 144;
-  font-weight: bold;
   margin: 0;
+  overflow: visible;
 }
+
+h1 {
+  
+  font-size: 79px;
+  font-weight: bold;
+  /* white-space: nowrap; */
+  position: relative;
+  z-index: 1;
+}
+
+.container img {
+  width: 100%;
+  margin: 0px;
+}
+
 
 .bio {
   background-color: #0C7489;
   color: white;
+  padding-top: 15px;
 }
 
+.col-md-10 {
+  padding-left: 0;
+  padding-right: 0;
+}
 
 
