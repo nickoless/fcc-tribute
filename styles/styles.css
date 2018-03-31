@@ -1,29 +1,27 @@
 .container {
- flex-direction: row;
- font-family: 'Work Sans', sans-serif;
+  flex-direction: row;
+  font-family: 'Work Sans', sans-serif;
 }
 
-.title {
-  font-size: 60px;
-  font-weight: bold;
-}
 
 .container img {
   width: 100%;
-  background-color: grey;
+  margin-left: 0;
   margin-bottom: 10px;
 }
 
-
-#album {
- height: 300px;
- width: 300px;
+.panel {
+  background-color: #EE964B;
+  color: white;
+  font-size: 144;
+  font-weight: bold;
+  margin: 0;
 }
 
-#one {
-  border: 1px solid red;
+.bio {
+  background-color: #0C7489;
+  color: white;
 }
 
-#two {
-  border: 1px solid blue;
-}
+
+
